@@ -1,0 +1,29 @@
+extends ../layout
+
+block content
+  h1= title
+  form(action=flashcard.id ? `/flashcards/${flashcard.id}/edit` : "/flashcards/new", method="POST")
+    if flashcard.id
+      input(type="hidden", name="id", value=flashcard.id)
+    div
+      label(for="word") Word:
+      input(type="text", name="word", required value=flashcard.word || '')
+    div
+      label(for="translation") Translation:
+      input(type="text", name="translation", required value=flashcard.translation || '')
+    div
+      label(for="language") Language:
+      select(name="language", required)
+        option(value='') Select Language
+        option(value='Uzbek' selected=flashcard.language === 'Uzbek') Uzbek
+        option(value='English' selected=flashcard.language === 'English') English
+        option(value='Russian' selected=flashcard.language === 'Russian') Russian
+    div
+      label(for="example") Example:
+      input(type="text", name="example", value=flashcard.example || '')
+    button(type="submit") Submit
+
+    if errors
+      ul
+        each error in errors
+          li= error.msg
