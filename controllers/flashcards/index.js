@@ -14,11 +14,11 @@ exports.new = (req, res) => {
 
 // Create a new flashcard
 exports.create = (req, res) => {
-    console.log('FORM SUBMITTED:', req.body); // ✅ Debug log
+    console.log('FORM SUBMITTED:', req.body);
   
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      console.log('VALIDATION ERRORS:', errors.array()); // ✅ Debug log
+      console.log('VALIDATION ERRORS:', errors.array());
       return res.render('flashcards/form', {
         title: 'New Flashcard',
         flashcard: req.body,
@@ -29,6 +29,7 @@ exports.create = (req, res) => {
     flashcardsService.create(req.body);
     res.redirect('/flashcards');
 };
+
 // Render form for editing an existing flashcard
 exports.edit = (req, res) => {
     const flashcard = flashcardsService.getById(req.params.id);

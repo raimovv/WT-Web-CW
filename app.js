@@ -6,11 +6,9 @@ const flashcardsRouter = require('./routes/flashcards');
 
 const app = express();
 
-// Set view engine to Pug
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-// Middleware for parsing request bodies and serving static files
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
