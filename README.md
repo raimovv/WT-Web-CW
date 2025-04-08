@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a web-based Language Learning App designed to help users practice and manage vocabulary using flashcards. Built with Node.js, Express.js and Pug, it allows users to add, view, and manage language flashcards. The application demonstrates core concepts such as routing, MVC structure, form validation and server-side rendering. This web application was created to fulfill Web Technology module’s requirements and does not represent an actual company or service !
+This is a web-based Language Learning App designed to help users practice and manage vocabulary using flashcards. Built with Node.js, Express.js and Pug, it allows users to add, view, and manage language flashcards. The application demonstrates core concepts such as routing, MVC structure, form validation and server-side rendering. <strong>This web application was created to fulfill Web Technology module’s requirements and does not represent an actual company or service !</strong>
 
 ## Links
 
