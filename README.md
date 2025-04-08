@@ -59,7 +59,7 @@ LANGUAGE-LEARNING-APP/
 ## Usage Instructions
 
 - Navigate to the home page and you will be redirected to `/flashcards`.
-- Click "Add New Flashcard" to submit a new word with its language, translation, and example sentence.
+- Click "Add New Flashcard" to submit a new word with its language, translation and example sentence.
 - All fields are required and validated before submission.
 
 ## Technical Details
@@ -72,8 +72,8 @@ LANGUAGE-LEARNING-APP/
 
 ## Student Details
 
-- Name: [Your Name Here]
-- Roll No: [Your Roll Number Here]
-- Subject: Web Technology – Semester 2
-- Instructor: [Instructor Name]
+- Name: Obidjon Raimov
+- ID: 00021238
+- Subject: Web Technology – 4BUIS011C-n
+- Instructor: Jaxongir Karimov
 
