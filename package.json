@@ -1,0 +1,17 @@
+{
+    "name": "language-learning-app",
+    "version": "1.0.0",
+    "description": "A Language Learning App for creating flashcards",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "author": "Ray",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.2",
+      "pug": "^3.0.2",
+      "express-validator": "^6.14.3"
+    }
+  }
+  
