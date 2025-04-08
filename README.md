@@ -2,7 +2,20 @@
 
 ## Description
 
-This is a web-based Language Learning App designed to help users practice and manage vocabulary using flashcards. Built with Node.js, Express.js and Pug, it allows users to add, view, and manage language flashcards. The application demonstrates core concepts such as routing, MVC structure, form validation and server-side rendering.
+This is a web-based Language Learning App designed to help users practice and manage vocabulary using flashcards. Built with Node.js, Express.js and Pug, it allows users to add, view, and manage language flashcards. The application demonstrates core concepts such as routing, MVC structure, form validation and server-side rendering. 
+
+## Links
+
+- GitHub-repo: 
+
+```
+https://github.com/raimovv/WT-Web-CW.git
+```
+- Hosted application (Render):
+
+```
+https://wt-web-cw.onrender.com
+```
 
 ## Features
 
